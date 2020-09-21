@@ -2,7 +2,41 @@
 
 Your code goes below.
 
-*/
+
+
+*/ 
+
+let x = 3;
+let y = 10;
+let z = 5;
+
+let name = '';
+
+let greeting = 'HEY'
+
+function multiply(factor) {
+  x = x * factor;
+}
+
+function modYBy(num) {
+  y = y % num;
+}
+
+function opposite(num) {
+  z = num * -1;
+}
+
+
+function makeFullName(lastName) {
+  name = name + ' ' + lastName;
+}
+
+function yellAt() {
+  greeting = greeting + ',' + ' Colin' + '!';
+}
+
+
+
 
 
 
